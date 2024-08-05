@@ -50,7 +50,7 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = "CircuitPython CircuitPython_SX126X Library"
+project = "CircuitPython SX126X Library"
 creation_year = "2024"
 current_year = str(datetime.datetime.now().year)
 year_duration = (
@@ -130,7 +130,7 @@ html_static_path = ["_static"]
 html_favicon = "_static/favicon.ico"
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "CircuitPython_Circuitpython_sx126x_Librarydoc"
+htmlhelp_basename = "CircuitPython_Sx126x_Librarydoc"
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -151,8 +151,8 @@ latex_elements = {
 latex_documents = [
     (
         master_doc,
-        "CircuitPython_CircuitPython_SX126X_Library.tex",
-        "CircuitPython CircuitPython_SX126X Library Documentation",
+        "CircuitPython_SX126X_Library.tex",
+        "CircuitPython SX126X Library Documentation",
         author,
         "manual",
     ),
@@ -165,8 +165,8 @@ latex_documents = [
 man_pages = [
     (
         master_doc,
-        "CircuitPython_CircuitPython_SX126X_Library",
-        "CircuitPython CircuitPython_SX126X Library Documentation",
+        "CircuitPython_SX126X_Library",
+        "CircuitPython SX126X Library Documentation",
         [author],
         1,
     ),
@@ -180,10 +180,10 @@ man_pages = [
 texinfo_documents = [
     (
         master_doc,
-        "CircuitPython_CircuitPython_SX126X_Library",
-        "CircuitPython CircuitPython_SX126X Library Documentation",
+        "CircuitPython_SX126X_Library",
+        "CircuitPython SX126X Library Documentation",
         author,
-        "CircuitPython_CircuitPython_SX126X_Library",
+        "CircuitPython_SX126X_Library",
         "One line description of project.",
         "Miscellaneous",
     ),

@@ -36,7 +36,7 @@ Table of Contents
 .. toctree::
     :caption: Other Links
 
-    Download from GitHub <https://github.com/bill88t/CircuitPython_CircuitPython_SX126X/releases/latest>
+    Download from GitHub <https://github.com/bill88t/CircuitPython_SX126X/releases/latest>
     Download Library Bundle <https://circuitpython.org/libraries>
     CircuitPython Reference Documentation <https://docs.circuitpython.org>
     CircuitPython Support Forum <https://forums.adafruit.com/viewforum.php?f=60>

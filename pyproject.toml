@@ -11,20 +11,20 @@ requires = [
 ]
 
 [project]
-name = "circuitpython-circuitpython-sx126x"
+name = "circuitpython-sx126x"
 description = "SX126X LoRa driver for CircuitPython"
 version = "0.0.0+auto.0"
 readme = "README.rst"
 authors = [
     {name = "Bill Sideris", email = "bill88t@feline.gr"}
 ]
-urls = {Homepage = "https://github.com/bill88t/CircuitPython_CircuitPython_SX126X"}
+urls = {Homepage = "https://github.com/bill88t/CircuitPython_SX126X"}
 keywords = [
     "adafruit",
     "blinka",
     "circuitpython",
     "micropython",
-    "circuitpython_sx126x",
+    "sx126x",
 ]
 license = {text = "MIT"}
 classifiers = [
@@ -40,7 +40,7 @@ dynamic = ["dependencies", "optional-dependencies"]
 [tool.setuptools]
 # TODO: IF LIBRARY FILES ARE A PACKAGE FOLDER,
 #       CHANGE `py_modules = ['...']` TO `packages = ['...']`
-py-modules = ["circuitpython_sx126x"]
+py-modules = ["sx126x"]
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
